@@ -19,21 +19,39 @@
 	  <ul data-role="listview" data-theme="e">
 	    <li class="result-header">Strana <span class="right">Shoda</span></li>
 	  {foreach $results as $result}
-	    <li><img src="images/{$result.friendly_name}.png" alt="{$result.short_name}" class="ui-li-icon">{$result.name} ({$result.short_name}) <span class="result-number
+	    <li><a href="#"><img src="images/{$result.friendly_name}.png" alt="{$result.short_name}" class="ui-li-icon"><span class="result-number
 	    {if $result.result >= .6} result-very-positive
 	    {elseif $result.result >= .2} result-positive
 	    {elseif $result.result >= -.2} result-neutral
 	    {elseif $result.result >= -.6} result-negative
 	    {else} result-very-negative
 	    {/if}	    	    
-	    ">{$result.result_percent} %</span></li>
+	    ">{$result.result_percent} %</span>{$result.name} ({$result.short_name})</a></li>
 	  {/foreach}
 	  </ul>
 	</div>
+	<!-- {include "bar_chart.tpl"} -->
 	</div><!-- /content -->
 	
 	<div data-role="footer">
 	  {include "social.tpl"}
 	</div><!-- /footer -->
+	<!-- google analytics -->
+	{literal}
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-8592359-1']);
+	  _gaq.push(['_setDomainName', 'kohovolit.eu']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	{/literal}
+<!-- /google analytics -->
   </body>
 </html>
