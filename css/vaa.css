@@ -101,3 +101,8 @@ background-position:center top;
     max-width: 850px;
 }
 
+/*front*/
+.front-empty {
+  height: 2em;
+}
+
