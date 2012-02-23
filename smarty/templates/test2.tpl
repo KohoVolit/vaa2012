@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Predvolebný názorový test 2012 | KohoVolit.eu</title>
+    <title>Parlamentná inventúra 2010-2012 | KohoVolit.eu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link type="image/x-icon" href="../images/favicon.ico" rel="shortcut icon">
@@ -14,20 +14,19 @@
     <form action="./match" method="get" data-ajax="false">
  
 	  <!-- Start of 0th page page -->  
-	  <div data-role="page" id="p0" data-title="Predvolebný názorový test 2012 | KohoVolit.eu"  data-theme="b">
+	  <div data-role="page" id="p0" data-title="Parlamentná inventúra 2010-2012 | KohoVolit.eu"  data-theme="b">
 		<div data-role="header">
 			  <a href="./" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
 			  <a href="info.html" data-role="button" data-icon="info" data-iconpos="notext" data-rel="dialog">Info</a>
-			  <h3 class="h1">Názorový test - voľby do Národnej rady SR 2012</h3>
+			  <h3 class="h1">Parlamentná inventúra - voľby do Národnej rady SR 2012</h3>
 		</div><!-- /header -->
 		
 		<div data-role="content" class="question-background">
 		  <div class="ui-overlay-shadow ui-corner-top ui-corner-bottom question" data-role="content">	
 			<div class="question-content">
-			  <h2 class="question-name question-name-0">Odpovedzte na otázky, ktoré sa môžu riešiť behom nasledujúceho volebného obdobia. Zistíte, <b>kto chce najlepšie zastupovať práve Vás.</b></h2>
+			  <p>Hlasujte sami v skutočných hlasovaniach, ktoré prebehli v Národnej rade SR. Zistíte, <b>kto Vás tam <em>naozaj</em> zastupuje.</b></p>
 			  <div class="question-question question-question-0">
 				<p><b>Nemusíte hlasovať o všetkom</b> – otázky, ktoré vynecháte, sa do výpočtu nezahrnú.</p>
-				<p>Test je vytvorený na základe odpovedí jednotlivých strán. Vo výsledkoch sú zobrazené tie, ktoré nám odpovedali. </p>
 			  </div>
 			</div><!-- /question-content -->
 

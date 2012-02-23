@@ -3,12 +3,12 @@
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('./smarty/templates');
-$smarty->setCompileDir('./smarty/templates_c');
-$smarty->setCacheDir('./smarty/cache');
-$smarty->setConfigDir('./smarty/configs');
+$smarty->setTemplateDir('../../smarty/templates');
+$smarty->setCompileDir('../../smarty/templates_c');
+$smarty->setCacheDir('../../smarty/cache');
+$smarty->setConfigDir('../../smarty/configs');
 
-$parties_file = './nazorova_votes.json';
+$parties_file = '../nazorova_votes.json';
 
 //extract user values
 $user = get_user_values();
