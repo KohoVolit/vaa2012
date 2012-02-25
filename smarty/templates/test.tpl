@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
-	<link rel="stylesheet" href="../css/vaa.css" />
+	<link rel="stylesheet" href="/css/vaa.css" />
   </head>
   <body>
     <form action="./match" method="get" data-ajax="false">
@@ -16,8 +16,8 @@
 	  <!-- Start of 0th page page -->  
 	  <div data-role="page" id="p0" data-title="Predvolebný názorový test 2012 | KohoVolit.eu"  data-theme="b">
 		<div data-role="header">
-			  <a href="./" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
-			  <a href="info.html" data-role="button" data-icon="info" data-iconpos="notext" data-rel="dialog">Info</a>
+			  <a href="/" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
+			  <a href="info" data-role="button" data-icon="info" data-iconpos="notext">Info</a>
 			  <h3 class="h1">Názorový test - voľby do Národnej rady SR 2012</h3>
 		</div><!-- /header -->
 		
@@ -46,7 +46,7 @@
 		<div data-role="page" id="p{$key+1}" data-title="{$question->name} | KohoVolit.eu"  data-theme="b">
 
 		  <div data-role="header">
-			  <a href="./" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
+			  <a href="/" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
 			  <h3 class="h1">Otázka {$key+1} / {$questions|@count}</h3>
 		  </div><!-- /header -->
 
@@ -90,7 +90,7 @@
 		<div data-role="page" id="p{$questions|@count+1}" data-title="Predvolebný názorový test 2012 | KohoVolit.eu"  data-theme="b">
 		
 		  <div data-role="header">
-			  <a href="./" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
+			  <a href="/" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
 			  <h3 class="h1">Dôležité otázky</h3>
 		  </div><!-- /header -->
 		  
