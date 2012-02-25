@@ -17,7 +17,7 @@
 	  <div data-role="page" id="p0" data-title="Predvolebný názorový test 2012 | KohoVolit.eu"  data-theme="b">
 		<div data-role="header">
 			  <a href="/" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
-			  <a href="info" data-role="button" data-icon="info" data-iconpos="notext">Info</a>
+			  <a href="/info" data-role="button" data-icon="info" data-iconpos="notext">Info</a>
 			  <h3 class="h1">Názorový test - voľby do Národnej rady SR 2012</h3>
 		</div><!-- /header -->
 		
