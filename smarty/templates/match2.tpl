@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
-	<link rel="stylesheet" href="../../css/vaa.css" />
+	<link rel="stylesheet" href="/css/vaa.css" />
   </head>
   
   <body>
   <div data-role="page" data-title="Parlamentná inventúra 2010-2012 | KohoVolit.eu" data-theme="b">
   
 	<div data-role="header">
-	  <a href="./" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
-	  <a href="info.html" data-role="button" data-icon="info" data-iconpos="notext" data-rel="dialog">Info</a>
+	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
+	  <a href="/info" data-role="button" data-icon="info" data-iconpos="notext" data-rel="dialog">Info</a>
 	  <h3 class="h1">Parlamentná inventúra 2010 - 2012</h3>
 	</div><!-- /header -->
 	
@@ -26,7 +26,7 @@
 	    <ul data-role="listview" data-theme="e">
 	      <li class="result-header">Kandidujúca strana <span class="right">Moja zhoda</span></li>
 	      {foreach $results_2010 as $result}
-	        <li><a href="../compare?{$query_string}"><img src="../images/{$result.friendly_name}.png" alt="{$result.short_name}" class="ui-li-icon"><span class="result-number
+	        <li><a href="../compare?{$query_string}"><img src="/images/{$result.friendly_name}.png" alt="{$result.short_name}" class="ui-li-icon"><span class="result-number
 	          {if $result.result >= .6} result-very-positive
 	          {elseif $result.result >= .2} result-positive
 	          {elseif $result.result >= -.2} result-neutral

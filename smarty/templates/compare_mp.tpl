@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
-	<link rel="stylesheet" href="../../css/vaa.css" />
+	<link rel="stylesheet" href="/css/vaa.css" />
   </head>
   <body>
   <div data-role="page" data-title="Parlamentná inventúra 2010-2012 | KohoVolit.eu" data-theme="c">
     
   <div data-role="header">
-	  <a href="./" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
-	  <a href="#">2 %</a>
+	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
+	  <a href="/2percenta">2 %</a>
 	  <h3 class="h1">Porovnanie</h3>
   </div><!-- /header -->
   
