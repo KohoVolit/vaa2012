@@ -16,7 +16,7 @@
   
 	<div data-role="header">
 	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
-	  <a href="/info" data-role="button" data-icon="info" data-iconpos="notext" data-rel="dialog">Info</a>
+	  <a href="/info" data-role="button" data-icon="info" data-iconpos="notext">Info</a>
 	  <h3 class="h1">Parlamentná inventúra 2010 - 2012</h3>
 	</div><!-- /header -->
 	
