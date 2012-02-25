@@ -36,7 +36,7 @@
 }
 
 .question-background {
-background-image:url('../images/SVK.png');
+background-image:url('../images/SVK3.jpg');
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top; 
@@ -106,3 +106,7 @@ background-position:center top;
   height: 2em;
 }
 
+/*kv-footer*/
+.kv-footer {
+  padding: 16px 5px 0;
+}

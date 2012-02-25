@@ -1,3 +1,4 @@
+<div class="right kv-footer"><a href="http://sk.kohovolit.eu"><img src="../../images/kohovolit-footer.png"/></a></div>
 <div id="social" class="social-bar">
 	{literal}
 		<!--twitter-->
@@ -33,3 +34,4 @@
 		</script>
 	{/literal}
 </div>
+
